@@ -1,20 +1,13 @@
-# Pratham Jariwala — Portfolio Website
+# Pratham Jariwala Portfolio — GitHub Pages
 
-A responsive, white-first, professional portfolio website with subtle animations, interactive compound-interest calculator, dark-mode toggle, personal photo galleries, research projects, and résumé downloads.
+This package is deliberately **flat**: all files belong directly in the repository root.
 
-## Open locally
-Open `index.html` in a modern browser. All project assets, photos, and PDFs are included in this folder. Google Fonts load when internet is available, with local fallback fonts.
+1. Extract this ZIP on your computer.
+2. Open https://github.com/prathamjariwala19/Portfolio_Website
+3. Choose Add file → Upload files. Upload ALL extracted files (not the ZIP).
+4. Confirm overwriting existing files, then Commit changes.
+5. Settings → Pages: Deploy from branch, main, /(root).
+6. Wait for Actions → pages build and deployment to finish.
+7. Visit https://prathamjariwala19.github.io/Portfolio_Website/ and hard-refresh.
 
-## Publish
-Upload the **contents** of this folder to a static hosting service such as Netlify, Vercel (static site), or GitHub Pages. No build process is required.
-
-For Netlify, drag the entire folder into the deploy drop zone. Once published, copy the public URL to LinkedIn's Featured section and job applications.
-
-## Edit
-- Content: `index.html`
-- Appearance: `styles.css`
-- Interactions: `script.js`
-- Photos: `assets/`
-- Downloadable research and résumé: `documents/`
-
-The compound interest tool uses a hypothetical fixed annual rate, compounded monthly, and is educational rather than financial advice.
+Required root files include index.html, styles.css, script.js, *.webp and *.pdf.
